@@ -10,6 +10,12 @@
 .text-primary{
 color: #FD6E0A;
 }
+/* Header style */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* nav styles */
 nav{
@@ -54,4 +60,29 @@ nav ul{
     font-size: 20px;
     border: none;
 
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: px 195px 30px 230px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-profile-picture{
+    width: 580px;
 }
